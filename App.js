@@ -23,10 +23,12 @@ const styles = StyleSheet.create({
   },
   city: {
     flex: 1,
+    flexDirection: "row",
     backgroundColor: "white",
   },
   weather: {
     flex: 1,
+    flexDirection: "row",
     backgroundColor: "blue",
   },
 });
