@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View>
-        <Text>Hello!</Text>
+        <Text>Gyeonggi-do</Text>
       </View>
       <StatusBar style="light" />
     </View>
