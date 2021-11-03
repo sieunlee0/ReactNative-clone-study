@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <View>
+      <View style={styles.city}>
         <Text>Gyeonggi-do</Text>
       </View>
       <StatusBar style="light" />
@@ -20,4 +20,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  city: {
+    flex: 1,
+    backgroundColor: "white",
+  }
 });
