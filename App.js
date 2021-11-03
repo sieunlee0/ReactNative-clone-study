@@ -8,6 +8,7 @@ export default function App() {
       <View style={styles.city}>
         <Text>Gyeonggi-do</Text>
       </View>
+      <View style={styles.weather}></View>
       <StatusBar style="light" />
     </View>
   );
@@ -23,5 +24,9 @@ const styles = StyleSheet.create({
   city: {
     flex: 1,
     backgroundColor: "white",
-  }
+  },
+  weather: {
+    flex: 1,
+    backgroundColor: "teal",
+  },
 });
