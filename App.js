@@ -27,6 +27,6 @@ const styles = StyleSheet.create({
   },
   weather: {
     flex: 1,
-    backgroundColor: "teal",
+    backgroundColor: "blue",
   },
 });
