@@ -37,20 +37,21 @@ const styles = StyleSheet.create({
   },
   weather: {
     flex: 2,
-    backgroundColor: "white",
-    paddingHorizontal: 68,
-    
   },
   day: {
     flex: 1,
-    justifyContent: "center",
     alignItems: "center",
+    
   },
   temp: {
     fontSize: 150,
     fontWeight: "600",
+    marginTop: 20,
+    color: "white",
   },
   description: {
+    marginTop: -20,
     fontSize: 70,
+    color: "white",
   },
 });
