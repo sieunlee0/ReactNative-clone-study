@@ -1,10 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
+import { useState } from 'react';
 import { StyleSheet, Text, View, ScrollView, Dimensions } from 'react-native';
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
 
 export default function App() {
+
+  const [location, setLocation] = useState();
+
   return (
     <View style={styles.container}>
       <StatusBar style="light" />
