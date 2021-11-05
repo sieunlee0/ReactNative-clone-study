@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
   weather: {
     flex: 2,
     backgroundColor: "white",
+    paddingHorizontal: 68,
     
   },
   day: {
@@ -46,9 +47,10 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   temp: {
-
+    fontSize: 150,
+    fontWeight: "600",
   },
   description: {
-
+    fontSize: 70,
   },
 });
