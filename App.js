@@ -1,4 +1,4 @@
-import * as Location  from "expo-locaton";
+import { Location } from "expo";
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { useState, useEffect } from 'react';
@@ -11,7 +11,9 @@ export default function App() {
   const [location, setLocation] = useState();
   const [ok, setOk] = useState(true);
 
-  const ask = async() =>
+  const ask = async() => {
+    await Location.requestForegroundPermissionsAsync();
+  }
 
   useEffect(() => {
     ask();
