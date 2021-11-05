@@ -4,31 +4,28 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <View style={styles.city}>
-        <Text>Gyeonggi-do</Text>
-      </View>
-      <View style={styles.weather}></View>
+    <View style={{flex:1}}>
+      <View style={{flex:1, backgroundColor: "salmon"}}></View>
+      <View style={{flex:1, backgroundColor: "teal"}}></View>
+      <View style={{flex:1, backgroundColor: "orange"}}></View>
       <StatusBar style="light" />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'salmon',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  city: {
-    flex: 1,
-    flexDirection: "row",
-    backgroundColor: "white",
-  },
-  weather: {
-    flex: 1,
-    flexDirection: "row",
-    backgroundColor: "blue",
-  },
+  // container: {
+  //   flex: 1,
+  //   backgroundColor: 'salmon',
+  //   alignItems: 'center',
+  //   justifyContent: 'center',
+  // },
+  // city: {
+  //   flex: 1,
+  //   backgroundColor: "white",
+  // },
+  // weather: {
+  //   flex: 1,
+  //   backgroundColor: "yellow",
+  // },
 });
